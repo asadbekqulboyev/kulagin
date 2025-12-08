@@ -343,6 +343,7 @@ body {
 .benefits .benefits_img {
     width: 100%;
     object-fit: contain;
+    display: block;
 }
 
 .benefits .benefits_img img {
