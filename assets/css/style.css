@@ -322,6 +322,14 @@ body {
 
 }
 
+.benefits.benefits2 {
+    background: #F7F7F7;
+}
+
+.benefits.last {
+    padding-bottom: 90px;
+}
+
 @media (max-width:1024px) {
     .benefits {
         padding: 70px 0 0;
@@ -378,7 +386,7 @@ body {
 
 }
 
-.benefits .benefits_title {
+.benefits_title {
     color: #000;
     text-align: center;
     font-family: "Roboto Slab";
@@ -390,14 +398,14 @@ body {
 
 @media (max-width:768px) {
 
-    .benefits .benefits_title {
+    .benefits_title {
         font-size: 28px;
         line-height: 34px;
     }
 
 }
 
-.benefits .benefits_subtitle {
+.benefits_subtitle {
     color: #000;
     text-align: center;
     font-family: 'Roboto';
@@ -409,7 +417,7 @@ body {
 }
 
 @media (max-width:768px) {
-    .benefits .benefits_subtitle {
+    .benefits_subtitle {
         font-size: 24px;
         line-height: 28px;
         margin-top: 20px;
@@ -424,4 +432,424 @@ body {
     .benefits_img {
         margin-top: 24px;
     }
+}
+
+.card .benefits_top {
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+.card .card_banner {
+    background: #000000;
+    padding: 137px 0 216px;
+    margin-top: 76px;
+    position: relative;
+}
+
+.card_banner .container {
+    max-width: 1232px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .card_banner_number {
+    color: #1B8D7E;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.card .card_banner_title {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    margin-top: 20px;
+}
+
+.card .card_banner_description {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 519px;
+    margin-top: 20px;
+}
+
+
+
+.card_banner_img img {
+    position: absolute;
+    right: 0;
+}
+
+.brand_design {
+    padding-top: 187px;
+}
+
+.brand_design .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.brand_design .single_slider {
+    border-radius: 5px;
+    border: 1px solid #ECECEC;
+    background: #FFF;
+    padding: 51px 22px 0 47px;
+    position: relative;
+    margin-top: 63px;
+}
+
+.brand_design .single_slider_prev,
+.brand_design .single_slider_next {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C0C0C0;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 12;
+    margin-top: 12%;
+}
+
+.brand_design .buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    position: absolute;
+    align-items: center;
+    width: calc(100% + 69px);
+    top: 0;
+    left: 0;
+    margin-left: -36px;
+}
+
+.single_slider_swiper .swiper-slide img {
+    width: 100%;
+}
+
+.design_top_number {
+    color: #1B8D7E;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.design_top {
+    position: relative;
+    z-index: 22;
+}
+
+.design_top p {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.design_top .benefits_subtitle {
+    margin-top: 8px;
+}
+
+.design_top .benifits_desc {
+    margin-top: 13px;
+}
+
+.icons_design {
+    background: #F7F7F7;
+    padding: 68px 0 0;
+    margin-top: 128px;
+}
+
+.icons_design .container {
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+.icons_design .design_top {
+    margin-bottom: -29px;
+}
+
+.icons_design .design_top .benifits_desc {
+    text-align: left;
+    max-width: 100%;
+}
+
+.icons_design .benefits_subtitle {
+    text-align: left;
+}
+
+.icons_design .design_top_number {
+    text-align: left;
+}
+
+.constructors {
+    margin-top: 95px;
+}
+
+.constructors .container {
+    margin: 0 auto;
+    max-width: 1232px;
+}
+
+.constructors .benefits_subtitle {
+    margin-top: 0;
+}
+
+.constructors .benefits_top {
+    padding-bottom: 50px;
+}
+
+.constructors .benefits_top {
+    max-width: 980px;
+    margin: 0 auto;
+
+}
+
+.constructors .constructors_desc {
+    max-width: 730px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.constructors.last .constructors_desc {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.constructors.last .benefits_top {
+    align-items: flex-start;
+    max-width: 1201px;
+
+}
+
+.constructors.last .benefits_subtitle {
+    text-align: left;
+}
+
+.constructors.last .design_top_number {
+    text-align: left;
+}
+
+.system {
+    background: #000;
+}
+
+.custom_checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.custom_checkbox input {
+    display: none;
+}
+
+.custom_checkbox_box {
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    border: 2px solid #1B8D7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+}
+
+.custom_checkbox_box svg {
+    width: 18px;
+    opacity: 0;
+    transition: 0.2s ease;
+}
+
+.custom_checkbox input:checked+.custom_checkbox_box {
+    background: #1B8D7E;
+}
+
+.custom_checkbox input:checked+.custom_checkbox_box svg {
+    opacity: 1;
+}
+
+.system {
+    padding-bottom: 122px;
+}
+
+.system .container {
+    max-width: 1097px;
+    margin: 0 auto;
+}
+
+.system .system_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.system .system_number {
+    padding-top: 43px;
+    color: #141414;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 140px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 154px;
+    overflow: hidden;
+}
+
+.system .system_title {
+    color: #FFF;
+    font-family: "Roboto Slab";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    margin-top: 23px;
+}
+
+.system .system_info_items {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 39px;
+}
+
+.system .system_item_title {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.system .system_img {
+    position: relative;
+    display: flex;
+    width: 50%;
+}
+
+.system .system_img img {
+    position: absolute;
+    left: -200px;
+    bottom: -191px;
+}
+
+.system .system_item_price {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 29px;
+}
+
+.system .system_info_check {
+    margin-top: 50px;
+    max-width: 520px;
+
+}
+
+.system .system_info_check label {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.system .custom_checkbox_text {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.system .custom_checkbox_text a {
+    font-weight: 700;
+    color: #fff;
+}
+
+.app .container {
+    padding-top: 66px;
+    margin: 0 auto;
+    max-width: 1328px;
+    width: 100%;
+}
+
+.app .container img {
+    width: 100%;
+}
+
+.group .container {
+    max-width: 1097px;
+    margin: 0 auto;
+}
+
+.group .group_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px 0;
+    align-items: flex-start;
+    margin-top: 52px;
+}
+
+.group .group_item {
+    width: calc(33.33% - 30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group .group_item img {
+    height: 88px;
+    object-fit: contain;
+}
+
+.group .group_item .group_item_title {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.group .group_item p {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    margin-top: 15px;
 }
