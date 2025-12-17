@@ -27,26 +27,18 @@ $(document).mouseup(function (e) {
     const video = $wrap.find("video")[0];
     const $play = $wrap.find(".play");
     const $overlay = $wrap.find(".video_overlay");
-
-    // Overlay yoki play bosilsa → play
     $play.add($overlay).on("click", function () {
       if (video.paused) {
         video.play();
         video.controls = true;
       }
     });
-
-    // VIDEO O‘YNAY BOSHLASA
     video.addEventListener("play", () => {
       $play.fadeOut();
     });
-
-    // VIDEO PAUSE BO‘LSA
     video.addEventListener("pause", () => {
       $play.fadeIn();
     });
-
-    // VIDEO TUGASA
     video.addEventListener("ended", () => {
       $play.fadeIn();
     });

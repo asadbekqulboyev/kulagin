@@ -739,6 +739,12 @@ body {
     margin-top: 73px;
 }
 
+@media (max-width:768px) {
+    .benefits .benefits_img {
+        margin-top: 50px;
+    }
+}
+
 @media (max-width:1200px) {
     .offers .container {
         padding: 0 16px;
