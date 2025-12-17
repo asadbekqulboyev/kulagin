@@ -855,6 +855,11 @@ body {
         padding: 44px 0 57px;
     }
 
+    .benefits.last {
+        padding: 44px 0 40px;
+    }
+
+
 }
 
 .benefits .container {
